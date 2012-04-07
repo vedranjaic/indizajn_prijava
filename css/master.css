@@ -1,0 +1,56 @@
+/*/// RESET */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, font, img, ul, li{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;list-style:none;}
+/* HTML5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1; font-family:Arial, Helvetica, sans-serif; font-size:62.5%; background-color:#ffffff; color:#4e4e4e;}
+.clear {clear:both}
+:focus {outline:0;}
+/*/// RESET */
+
+/*/// BODY / DEFAULTS */
+@font-face {
+    font-family: 'LayarBahteraDoomsdayRegular';
+    src: url('../fonts/layarbahtera_doomsday-webfont.eot');
+    src: url('../fonts/layarbahtera_doomsday-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/layarbahtera_doomsday-webfont.woff') format('woff'),
+         url('../fonts/layarbahtera_doomsday-webfont.ttf') format('truetype'),
+         url('../fonts/layarbahtera_doomsday-webfont.svg#LayarBahteraDoomsdayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wrap {width:810px; height:650px; background:url(../images/indizajn_prijava_fan.jpg) top left no-repeat; position:relative;}
+
+/* prijava */
+.prijava {width:650px; margin:0 auto; background-color:#ffffff; position:absolute; top:160px; left:50px; padding:30px; overflow:hidden;}
+.prijava h1 {font-family:'LayarBahteraDoomsdayRegular', Helvetica, Arial, sans-serif; font-size:2.5em; font-weight:normal; text-transform:uppercase; border-bottom:1px solid #dedede; padding-bottom:10px; margin-bottom:20px;}
+.prijava p {line-height:1.4em; font-size:1.2em;}
+/* pravila + forma */
+.prijavaL {float:left; width:260px; margin-right:15px;}
+.prijavaL p {margin-bottom:1em;}
+.prijavaR {float:right; width:360px; margin-left:15px;}
+.prijavaR form {width:100%;}
+.prijavaR form input {background-color:#57cbf5; border:1px solid #57cbf5; padding:5px; color:#fff; font-size:1.6em; width:260px;}
+.prijavaR form input#submit {width:120px; background-color:#f067a0; border:1px solid #f067a0; text-transform:uppercase; font-size:1.2em; margin-top:20px;}
+.prijavaR form input#submit:hover {background-color:#d65c8f; cursor:pointer;}
+.prijavaR form input.prijava-error {background-color:#ed1c24; border:1px solid #ed1c24;}
+/* success lightbox */
+#pop-success {background-color:#ffffff;}
+.pop-success-top {background-color:#bdd748; padding:10px; color:#fff;}
+.pop-success-top p.success-msg {background:url(../images/icons.png) top left no-repeat; font-family:'LayarBahteraDoomsdayRegular', Helvetica, Arial, sans-serif; font-size:1.6em; padding-left:20px;}
+.pop-success-body {padding:20px 10px;}
+.pop-success-body p {color:#4e4e4e; font-size:1.4em; line-height:1.6em;}
+.pop-success-fb-feed {padding:0 10px;}
+.pop-success-fb-feed a {background:url(../images/btn_fb_share.png) top left no-repeat; width:260px; height:32px; display:block; text-indent:-9999em; overflow:hidden; margin:10px auto 0 auto;}
+.pop-success-fb-feed a:hover {background-position:bottom left;}
+/* error lightbox */
+#pop-error {background-color:#ffffff;}
+.pop-error-top {background-color:#ed1c24; padding:10px; color:#fff;}
+.pop-error-top p.error-msg {background:url(../images/icons.png) bottom left no-repeat; font-family:'LayarBahteraDoomsdayRegular', Helvetica, Arial, sans-serif; font-size:1.6em; padding-left:20px;}
+.pop-error-body {padding:20px 10px;}
+.pop-error-body p {color:#4e4e4e; font-size:1.4em; line-height:1.6em;}
+
+
+
+
+
